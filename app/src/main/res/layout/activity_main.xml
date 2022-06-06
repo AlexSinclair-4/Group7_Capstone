@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="639dp"
+        android:text="Malayan MedAid"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="144dp"
+        android:layout_height="136dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="590dp"
+        app:srcCompat="@drawable/logomcm" />
+
+    <EditText
+        android:id="@+id/EmailInput"
+        android:layout_width="222dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="465dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:labelFor="@id/EmailInput"
+        android:singleLine="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="197dp"
+        android:background="#FFFFFF"
+        android:onClick="launchActivity"
+        android:text="Log-in"
+        android:textColor="#757575"
+        app:iconTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/PasswordDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="410dp"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/EmailDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="528dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:layout_width="222dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="345dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:labelFor="@id/PasswordInput"
+        android:singleLine="true" />
+
+</RelativeLayout>
